@@ -1,0 +1,37 @@
+# ML Image Operation CLI - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML and Deep Learning
+# Note: PyTorch installation is handled separately in Makefile
+# For manual installation:
+#   CPU-only: pip install torch torchvision
+#   CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# CLI and UI
+click>=8.1.0
+rich>=13.5.0
+tabulate>=0.9.0
+
+# Plotting and Visualization
+matplotlib>=3.7.0
+
+# Optional but recommended
+scipy>=1.11.0
+scikit-image>=0.21.0
+
+# Development and Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.1.0
+
+# System and utilities
+psutil>=5.9.0
+tqdm>=4.66.0
