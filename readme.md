@@ -30,7 +30,7 @@ A `Makefile` is provided for easy installation and setup.
 1.  **Clone the repository:**
     ```bash
     git clone <repository-url>
-    cd aiseg
+    cd hyperparameter-analyzer
     ```
 
 2.  **Run the setup command:**
